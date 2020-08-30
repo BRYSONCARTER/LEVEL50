@@ -22,7 +22,7 @@ an incredible course model and you are all educators of the highest caliber.
 
 
 
-Some info about LEVEL50:
+LEVEL50 info dump:
 
 LEVEL50 is text-based and can be played from a command line terminal.
 You must be able to compile C to play the game.
