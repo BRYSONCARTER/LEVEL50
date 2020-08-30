@@ -46,6 +46,7 @@ The code is 6000+ lines of the finest hand-coded megaspaghetti.
 
 I hope LEVEL50 can be illuminating, entertaining, instructional, or otherwise beneficial.
 Enjoy, download, and share as you like.
+If you have any questions, you can email me at brysonmcarter@gmail.com.
 
 
 //BRYSONCARTER2020
