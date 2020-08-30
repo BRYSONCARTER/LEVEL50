@@ -3919,7 +3919,7 @@ int main(void)
             ////
             else //ELSE  IF SPEED TIE----------------------------------
             {
-                printf("speed ai@@@@@@@@@");
+                //printf("speed ai@@@@@@@@@");
                 int movefirst = 1 + rand() % 100;
                 if (movefirst > 50) //if heads, they move first
                 {
@@ -5817,11 +5817,11 @@ int attack(struct combatmon attacker, struct combatmon defender, struct move mov
     float d = 0;
     if (movestruct.physicalorspecial == 0)
     { //physical damage and atk mods
-        d = 3 / 2 * (movestruct.basepower / 40) * attackchange(combatants[0].atkmod, combatants[0].individualdata.statusint) * (((5 * combatants[0].individualdata.lvl + 2) * combatants[0].individualdata.atk / (combatants[1].individualdata.def * statchange(combatants[1].defmod)) / 10) + 2);
+        d = 0.7 * (3 * 7 / 20 * (movestruct.basepower / 40) * attackchange(combatants[0].atkmod, combatants[0].individualdata.statusint) * (((5 * combatants[0].individualdata.lvl + 2) * combatants[0].individualdata.atk / (combatants[1].individualdata.def * statchange(combatants[1].defmod)) / 10) + 2));
     }
     else
     {
-        d = 3 / 2 * (movestruct.basepower / 40) * statchange(combatants[0].spatkmod) * (((5 * combatants[0].individualdata.lvl + 2) * combatants[0].individualdata.spatk / (combatants[1].individualdata.spdef * statchange(combatants[1].spdefmod)) / 10) + 2);
+        d = 0.7 * (3 * 7 / 20 * (movestruct.basepower / 40) * statchange(combatants[0].spatkmod) * (((5 * combatants[0].individualdata.lvl + 2) * combatants[0].individualdata.spatk / (combatants[1].individualdata.spdef * statchange(combatants[1].spdefmod)) / 10) + 2));
     }
 
     int d2 = (STAB * d) / 2;
@@ -5881,11 +5881,11 @@ int foeattack(struct combatmon attacker, struct combatmon defender, struct move 
     float d = 0;
     if (movestruct.physicalorspecial == 0)
     { //physical damage and atk mods
-        d = 3 / 2 * (movestruct.basepower / 40) * attackchange(combatants[1].atkmod, combatants[1].individualdata.statusint) * (((5 * combatants[1].individualdata.lvl + 2) * combatants[1].individualdata.atk / (combatants[0].individualdata.def * statchange(combatants[0].defmod)) / 10) + 2);
+        d = 0.7 * (3 * 7 / 20 * (movestruct.basepower / 40) * attackchange(combatants[1].atkmod, combatants[1].individualdata.statusint) * (((5 * combatants[1].individualdata.lvl + 2) * combatants[1].individualdata.atk / (combatants[0].individualdata.def * statchange(combatants[0].defmod)) / 10) + 2));
     }
     else
     {
-        d = 3 / 2 * (movestruct.basepower / 40) * statchange(combatants[1].spatkmod) * (((5 * combatants[1].individualdata.lvl + 2) * combatants[1].individualdata.spatk / (combatants[0].individualdata.spdef * statchange(combatants[0].spdefmod)) / 10) + 2);
+        d = 0.7 * (3 * 7 / 20 * (movestruct.basepower / 40) * statchange(combatants[1].spatkmod) * (((5 * combatants[1].individualdata.lvl + 2) * combatants[1].individualdata.spatk / (combatants[0].individualdata.spdef * statchange(combatants[0].spdefmod)) / 10) + 2));
     }
 
     int d2 = (STAB * d) / 2;
