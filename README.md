@@ -29,6 +29,7 @@ You must be able to compile C to play the game.
 Simply download LEVEL50.c, compile it, and run the compiled program.
 All fully-evolved Pokemon from the orginal 151 are in the game, minus Ditto, plus Pikachu.
 The game uses a mix of mechanics. The moves, types, and base stats are drawn from 5th gen.
+No EVs, IVs all assumed to be 31.
 Physical/Special split exists. Move priority exists. STAB exists. Super-effective etc. exists.
 Status effects and stat mods exist.
 There are no abilities (like gens 1 and 2), and no items.
