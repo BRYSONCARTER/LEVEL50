@@ -23,27 +23,29 @@ an incredible course model and you are all educators of the highest caliber.
 
 
 Some info about LEVEL50:
--LEVEL50 is text-based and can be played from a command line terminal.
- Simply download LEVEL50.c, compile it, and run the compiled program.
--All fully-evolved Pokemon from the orginal 151 are in the game, minus Ditto, plus Pikachu.
--The game uses a mix of mechanics. The moves, types, and base stats are drawn from 5th gen.
--Physical/Special split exists. Move priority exists. STAB exists. Super-effective etc. exists.
--Status effects and stat mods exist.
--There are no abilities (like gens 1 and 2), and no items.
--Each Pokemon has a premade moveset (kind of like Pokemon Stadium).
--The damage formula is my own tweak on the one from the games.
--The battle format is 3v3 single battle. All Pokemon are set to Level 50.
--User selects which Pokemon they want, and which ones they want to fight against.
--The battle ends when either all user mons faint, all foe mons faint, or the user Escapes.
--User may fight, switch Pokemon, escape, and view party stats.
--Sleep/Freeze have a chance of ending every turn, even for Rest users.
--No critical hits. Status moves don't check type (you can Poison Muk).
--You can change a monster's status even if it already has a condition, but will lose the original status.
--Roost doesnt remove flying type. Steel wing doesn't raise defense. Weather doesn't exist.
--The code is 6000+ lines of the finest hand-coded megaspaghetti.
+
+LEVEL50 is text-based and can be played from a command line terminal.
+You must be able to compile C to play the game.
+Simply download LEVEL50.c, compile it, and run the compiled program.
+All fully-evolved Pokemon from the orginal 151 are in the game, minus Ditto, plus Pikachu.
+The game uses a mix of mechanics. The moves, types, and base stats are drawn from 5th gen.
+Physical/Special split exists. Move priority exists. STAB exists. Super-effective etc. exists.
+Status effects and stat mods exist.
+There are no abilities (like gens 1 and 2), and no items.
+Each Pokemon has a premade moveset (kind of like Pokemon Stadium).
+The damage formula is my own tweak on the one from the games.
+The battle format is 3v3 single battle. All Pokemon are set to Level 50.
+User selects which Pokemon they want, and which ones they want to fight against.
+The battle ends when either all user mons faint, all foe mons faint, or the user Escapes.
+User may fight, switch Pokemon, escape, and view party stats.
+Sleep/Freeze have a chance of ending every turn, even for Rest users.
+No critical hits. Status moves don't check type (you can Poison Muk).
+You can change a monster's status even if it already has a condition, but will lose the original status.
+Roost doesnt remove flying type. Steel wing doesn't raise defense. Weather doesn't exist.
+The code is 6000+ lines of the finest hand-coded megaspaghetti.
 
 I hope LEVEL50 can be illuminating, entertaining, instructional, or otherwise beneficial.
 Enjoy, download, and share as you like.
 
 
-//BRYSONCARTER
+//BRYSONCARTER2020
